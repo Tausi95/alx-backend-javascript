@@ -5,12 +5,9 @@ export function uploadPhoto() {
     });
     // return Promise.reject(new Error('Error'));
   }
-  
-  
   export function createUser() {
     return Promise.resolve({
       firstName: 'Guillaume',
       lastName: 'Salva',
     });
   }
-  
